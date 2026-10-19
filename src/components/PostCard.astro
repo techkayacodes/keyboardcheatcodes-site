@@ -1,0 +1,13 @@
+---
+interface Props { post: any }
+const { post } = Astro.props;
+const d = post.data;
+---
+<div class="card">
+  {d.cover && <a class="cover" href={`/blog/${post.id}/`}><img src={d.cover} alt="" loading="lazy" width="1280" height="720" /></a>}
+  <div class="body">
+    <span class="meta">{d.pubDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</span>
+    <h3><a href={`/blog/${post.id}/`}>{d.title}</a></h3>
+    <p>{d.description}</p>
+  </div>
+</div>

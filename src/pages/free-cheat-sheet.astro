@@ -1,0 +1,28 @@
+---
+import Base from '../layouts/Base.astro';
+import PaidSheetCTA from '../components/PaidSheetCTA.astro';
+import { FREE_SHEET_URL } from '../consts';
+---
+<Base title="Free Top 10 Keyboard Shortcuts Cheat Sheet (PC & Mac)" description="Get the 10 Windows and Mac keyboard shortcuts that save hours every week. A free, printable 1-page PDF." image="/images/top10-preview.png">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">free printable pdf</span>
+        <h1>Get the 10 keyboard shortcuts that save me hours every week</h1>
+        <p class="lead">A free 1-page PDF for Windows &amp; Mac. Print it, stick it by your keyboard, stop reaching for the mouse.</p>
+        <div class="cta-row"><a class="btn" href={FREE_SHEET_URL}>Send me the cheat sheet</a></div>
+        <p class="small" style="margin-top:12px">No spam. Unsubscribe anytime.</p>
+      </div>
+      <a href={FREE_SHEET_URL}><img src="/images/top10-preview.png" alt="Preview of the Top 10 Keyboard Shortcuts cheat sheet for Windows and Mac" width="816" height="1056" style="border:3px solid #111;border-radius:14px;box-shadow:6px 6px 0 #111" /></a>
+    </div>
+  </section>
+  <section class="block"><div class="narrow">
+    <h2>What's on it</h2>
+    <ul>
+      <li>10 Windows shortcuts and the same 10 for Mac, side by side</li>
+      <li>One line on what each one does, so you know when to use it</li>
+      <li>A "start here" tip so you learn one at a time and it actually sticks</li>
+    </ul>
+    <div style="margin-top:28px"><PaidSheetCTA /></div>
+  </div></section>
+</Base>

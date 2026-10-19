@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import FreeSheetCTA from '../components/FreeSheetCTA.astro';
+import PaidSheetCTA from '../components/PaidSheetCTA.astro';
+import { getCollection } from 'astro:content';
+import { FREE_SHEET_URL, YOUTUBE_URL } from '../consts';
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+const circles = [['#9cff1d','⌘'],['#fed120','Ctrl'],['#ffa51e','Alt'],['#fe751f','Tab'],['#ff3230','Esc'],['#2048ff','Fn'],['#9540dc','⇧'],['#fd1fa9','Win'],['#3ddce2','F5'],['#7eda55','⌫']];
+---
+<Base>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">every keyboard thing, explained fast</span>
+        <h1>Master your tools. Reclaim your time.</h1>
+        <p class="lead">Every keyboard, switch and shortcut explained in a few minutes, plus free cheat sheets so you stop reaching for the mouse.</p>
+        <div class="cta-row">
+          <a class="btn" href={FREE_SHEET_URL}>Get the free cheat sheet</a>
+          <a class="btn alt" href={YOUTUBE_URL}>Watch on YouTube</a>
+        </div>
+      </div>
+      <div class="grid10" aria-hidden="true">
+        {circles.map(([c, t]) => <span style={`background:${c}`}>{t}</span>)}
+      </div>
+    </div>
+  </section>
+  <section class="block">
+    <div class="wrap">
+      <h2>Latest guides</h2>
+      <div class="cards">{posts.map((p) => <PostCard post={p} />)}</div>
+      <p style="margin-top:18px"><a href="/blog/">All posts →</a></p>
+    </div>
+  </section>
+  <section class="block">
+    <div class="wrap" style="display:grid;gap:22px">
+      <FreeSheetCTA />
+      <PaidSheetCTA />
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,71 @@
+---
+import '../styles/global.css';
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_TAGLINE, YOUTUBE_URL, INSTAGRAM_URL, TIKTOK_URL, FREE_SHEET_URL } from '../consts';
+interface Props { title?: string; description?: string; image?: string; type?: string; }
+const { title, description = SITE_DESCRIPTION, image = '/images/og-default.png', type = 'website' } = Astro.props;
+const fullTitle = title ? `${title} | ${SITE_TITLE}` : `${SITE_TITLE}: ${SITE_TAGLINE}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(image, Astro.site);
+const path = Astro.url.pathname;
+const nav = [
+  { href: '/blog/', label: 'Blog' },
+  { href: '/free-cheat-sheet/', label: 'Free cheat sheet' },
+  { href: '/shop/', label: 'Shop' },
+  { href: '/about/', label: 'About' },
+];
+const colors = ['#9cff1d', '#fed120', '#ffa51e', '#ff3230', '#2048ff'];
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href="/rss.xml" />
+  <link rel="sitemap" href="/sitemap-index.xml" />
+  <meta property="og:type" content={type} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={ogImage} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <slot name="head" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Keyboard Cheat Codes home">
+        <span class="dots" aria-hidden="true">{colors.map((c) => <i style={`background:${c}`}></i>)}</span>
+        Keyboard Cheat Codes
+      </a>
+      <nav aria-label="Main">
+        <ul>
+          {nav.map((n) => <li><a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a></li>)}
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <slot />
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <strong>Keyboard Cheat Codes</strong><br />
+        <span class="small">{SITE_TAGLINE}</span>
+      </div>
+      <div>
+        <a href={YOUTUBE_URL}>YouTube</a> · <a href={INSTAGRAM_URL}>Instagram</a> · <a href={TIKTOK_URL}>TikTok</a> · <a href={FREE_SHEET_URL}>Free cheat sheet</a> · <a href="/rss.xml">RSS</a>
+        <div class="small">Some links may be affiliate links. If you buy, I may earn a small commission at no extra cost to you.</div>
+        <div class="small">© {new Date().getFullYear()} Keyboard Cheat Codes, a Max Labs LLC project.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

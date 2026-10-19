@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import FreeSheetCTA from '../components/FreeSheetCTA.astro';
+import { YOUTUBE_URL } from '../consts';
+---
+<Base title="About" description="Keyboard Cheat Codes explains every keyboard, switch and shortcut in a few minutes.">
+  <article class="post narrow">
+    <span class="meta">about</span>
+    <h1>Hi, I'm Codem.</h1>
+    <div class="prose">
+      <p>I've spent 8+ years in IT, fixing computers and watching people lose hours to clicking through menus. Keyboard Cheat Codes is where I share the shortcuts, keyboards and tools that actually save time, explained fast and without the jargon.</p>
+      <p>Every video follows the same idea: <strong>every ___ explained in a few minutes</strong>. Every keyboard type, every switch, every size, every shortcut worth knowing. This site is the written version, plus free cheat sheets you can print.</p>
+      <p>New videos every week on <a href={YOUTUBE_URL}>YouTube</a>.</p>
+      <p><strong>Master your tools. Reclaim your time.</strong></p>
+    </div>
+    <div style="margin-top:30px"><FreeSheetCTA /></div>
+  </article>
+</Base>

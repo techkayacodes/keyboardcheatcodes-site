@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import FreeSheetCTA from '../../components/FreeSheetCTA.astro';
+import PaidSheetCTA from '../../components/PaidSheetCTA.astro';
+import { getCollection, render } from 'astro:content';
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+const d = post.data;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: d.title,
+  description: d.description,
+  datePublished: d.pubDate.toISOString(),
+  dateModified: (d.updated ?? d.pubDate).toISOString(),
+  author: { '@type': 'Organization', name: 'Keyboard Cheat Codes' },
+  image: d.cover ? new URL(d.cover, Astro.site).toString() : undefined,
+};
+---
+<Base title={d.title} description={d.description} image={d.cover} type="article">
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonld)} />
+  <article class="post narrow">
+    <span class="meta">{d.pubDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</span>
+    <h1>{d.title}</h1>
+    <p class="dek">{d.description}</p>
+    {d.youtube && (
+      <div class="video">
+        <iframe src={`https://www.youtube-nocookie.com/embed/${d.youtube}`} title={d.title} loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    )}
+    <div class="prose"><Content /></div>
+    <div style="display:grid;gap:22px;margin-top:40px"><FreeSheetCTA /><PaidSheetCTA /></div>
+  </article>
+</Base>

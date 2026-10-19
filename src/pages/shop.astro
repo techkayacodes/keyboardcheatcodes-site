@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import { PAID_SHEET_URL, FREE_SHEET_URL } from '../consts';
+---
+<Base title="Shop" description="Printable keyboard shortcut cheat sheets from Keyboard Cheat Codes." image="/images/shortcut-cheat-sheet-cover.png">
+  <section class="hero" style="padding-bottom:10px"><div class="wrap" style="display:block">
+    <span class="eyebrow">the shop</span>
+    <h1>Cheat sheets that live next to your keyboard</h1>
+  </div></section>
+  <section class="block"><div class="wrap"><div class="cards">
+    <div class="card">
+      <a class="cover" href={PAID_SHEET_URL}><img src="/images/shortcut-cheat-sheet-cover.png" alt="The Shortcut Cheat Sheet for Windows and Mac" width="1280" height="720" loading="lazy" /></a>
+      <div class="body">
+        <span class="meta">$7 · printable pdf</span>
+        <h3><a href={PAID_SHEET_URL}>The Shortcut Cheat Sheet (Windows + Mac)</a></h3>
+        <p>107 shortcuts on 2 color-coded pages: essentials, text editing, windows and desktops, screenshots, browser, File Explorer and Finder.</p>
+        <p style="margin-top:10px"><a class="btn" href={PAID_SHEET_URL}>Get it for $7</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <a class="cover" href={FREE_SHEET_URL}><img src="/images/top10-preview.png" alt="The free Top 10 Keyboard Shortcuts sheet" width="816" height="1056" loading="lazy" style="aspect-ratio:16/9;object-fit:cover;object-position:top" /></a>
+      <div class="body">
+        <span class="meta">free · printable pdf</span>
+        <h3><a href={FREE_SHEET_URL}>Top 10 Keyboard Shortcuts (PC &amp; Mac)</a></h3>
+        <p>The 10 that save the most time, on one page. Free when you join the newsletter.</p>
+        <p style="margin-top:10px"><a class="btn alt" href={FREE_SHEET_URL}>Get it free</a></p>
+      </div>
+    </div>
+  </div>
+  <p class="small" style="margin-top:22px">More coming: VS Code, Excel, Chrome and Notion sheets, plus desk gear.</p>
+  </div></section>
+</Base>
