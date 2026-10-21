@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import Keys from '../../components/Keys.astro';
+import PaidSheetCTA from '../../components/PaidSheetCTA.astro';
+import FreeSheetCTA from '../../components/FreeSheetCTA.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('shortcuts')).sort((a, b) => a.data.order - b.data.order);
+const order = ['The Essentials', 'Text Editing', 'Windows, Apps & Desktops', 'Screenshots', 'System Power Moves', 'Browser', 'File Explorer & Finder'];
+const groups = order.map((c) => ({ c, items: all.filter((s) => s.data.category === c) }));
+---
+<Base title="Keyboard Shortcut Library (Windows + Mac)" description="Every shortcut from the Keyboard Cheat Codes cheat sheet, each with a quick how-to and a pro tip, for Windows and Mac side by side.">
+  <section class="hero" style="padding-bottom:10px">
+    <div class="wrap" style="display:block">
+      <span class="eyebrow">shortcut library</span>
+      <h1>Every shortcut, explained</h1>
+      <p class="lead">Each shortcut from the cheat sheet gets its own quick guide, with Windows and Mac side by side. Pick one, use it all week, then come back for the next.</p>
+    </div>
+  </section>
+  <section class="block">
+    <div class="wrap">
+      <PaidSheetCTA />
+      {groups.map(({ c, items }) => (
+        <div class="lib-group">
+          <h2>{c}</h2>
+          <ul class="lib">
+            {items.map((s) => (
+              <li>
+                <a href={`/shortcuts/${s.id}/`}>{s.data.name}</a>
+                <span class="pair"><span class="os">Win</span><Keys combo={s.data.win} /></span>
+                <span class="pair"><span class="os">Mac</span><Keys combo={s.data.mac} /></span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+      <div style="margin-top:36px"><FreeSheetCTA /></div>
+    </div>
+  </section>
+</Base>

@@ -2,6 +2,7 @@
 title: "The 10 Keyboard Shortcuts That Save Me Hours (Windows + Mac)"
 description: "The 10 keyboard shortcuts worth learning first, for Windows and Mac side by side, plus the one trick that makes them stick. Free printable cheat sheet included."
 pubDate: 2026-10-19
+youtube: "8zGtp8ke0ZQ"
 cover: "/images/top10-cover.png"
 tags: ["keyboard shortcuts", "windows", "mac", "productivity"]
 ---
@@ -40,3 +41,5 @@ Don't try to learn all ten at once. **Pick one today** and force yourself to use
 ## Ready for more?
 
 These ten are the start. The full [Shortcut Cheat Sheet](https://keyboardcheatcodes.gumroad.com/l/shortcut-cheat-sheet) has 107 Windows and Mac shortcuts on two printable pages: text editing, snapping windows, virtual desktops, browser tabs, File Explorer and Finder.
+
+Want a quick guide for each one? Every shortcut on the sheet has its own page in the [shortcut library](/shortcuts/).

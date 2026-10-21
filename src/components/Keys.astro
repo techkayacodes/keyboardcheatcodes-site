@@ -1,0 +1,10 @@
+---
+interface Props { combo: string | null | undefined; }
+const { combo } = Astro.props;
+const parts = combo ? combo.split('|') : [];
+---
+{parts.length ? (
+  <span class="keys">{parts.map((p, i) => <>{i > 0 && <span class="plus">+</span>}<kbd>{p}</kbd></>)}</span>
+) : (
+  <span class="keys none">No built-in shortcut</span>
+)}

@@ -1,0 +1,69 @@
+---
+import Base from '../../layouts/Base.astro';
+import Keys from '../../components/Keys.astro';
+import FreeSheetCTA from '../../components/FreeSheetCTA.astro';
+import PaidSheetCTA from '../../components/PaidSheetCTA.astro';
+import { getCollection } from 'astro:content';
+import { PAID_SHEET_URL } from '../../consts';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('shortcuts')).sort((a, b) => a.data.order - b.data.order);
+  return all.map((s) => ({ params: { slug: s.id }, props: { s, all } }));
+}
+const { s, all } = Astro.props;
+const d = s.data;
+const plain = (c?: string | null) => (c ? c.split('|').join(' + ') : '');
+const keyLine = [d.win && `${plain(d.win)} (Windows)`, d.mac && `${plain(d.mac)} (Mac)`].filter(Boolean).join(' / ');
+const title = `${d.name}: ${keyLine}`;
+const description = `${d.summary} How to use ${keyLine}, plus a pro tip.`.slice(0, 300);
+const related = all.filter((x) => x.data.category === d.category && x.id !== s.id);
+const after = related.filter((x) => x.data.order > d.order);
+const teaser = [...after, ...related.filter((x) => x.data.order < d.order)].slice(0, 4);
+const hidden = related.length - teaser.length;
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: `How to ${d.name.toLowerCase()} with a keyboard shortcut`,
+  description: d.summary,
+  step: d.steps.map((t: string, i: number) => ({ '@type': 'HowToStep', position: i + 1, text: t })),
+};
+---
+<Base title={title} description={description}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonld)} />
+  <article class="post narrow">
+    <span class="meta"><a href="/shortcuts/">Shortcut library</a> · {d.category}</span>
+    <h1>{d.name}</h1>
+    <p class="dek">{d.summary}</p>
+
+    <div class="combo-grid">
+      <div class="combo"><span class="os">Windows</span><Keys combo={d.win} /></div>
+      <div class="combo"><span class="os">Mac</span><Keys combo={d.mac} /></div>
+    </div>
+
+    {d.youtube && (
+      <div class="video short">
+        <iframe src={`https://www.youtube-nocookie.com/embed/${d.youtube}`} title={d.name} loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    )}
+
+    <div class="prose">
+      <h2>How to use it</h2>
+      <ol>{d.steps.map((t: string) => <li>{t}</li>)}</ol>
+      <h2>Pro tip</h2>
+      <p>{d.tip}</p>
+      {d.note && <blockquote><strong>Heads up:</strong> {d.note}</blockquote>}
+    </div>
+
+    <section class="more">
+      <h2>Next up in {d.category}</h2>
+      <ul class="mini">
+        {teaser.map((r) => (
+          <li><a href={`/shortcuts/${r.id}/`}>{r.data.name}</a><span><Keys combo={r.data.win ?? r.data.mac} /></span></li>
+        ))}
+      </ul>
+      {hidden > 0 && <p class="small">+ {hidden} more in this section. <a href="/shortcuts/">See the whole library</a>, or <a href={PAID_SHEET_URL}>get all 107 on one printable sheet</a>.</p>}
+    </section>
+
+    <div style="display:grid;gap:22px;margin-top:34px"><PaidSheetCTA /><FreeSheetCTA /></div>
+  </article>
+</Base>

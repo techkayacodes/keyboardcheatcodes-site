@@ -1,0 +1,1294 @@
+[
+ {
+  "id": "copy",
+  "order": 0,
+  "slug": "copy",
+  "name": "Copy",
+  "category": "The Essentials",
+  "win": "Ctrl|C",
+  "mac": "⌘|C",
+  "summary": "Copies whatever you have selected (text, a file, an image) to the clipboard without removing it.",
+  "steps": [
+   "Select the text or file you want.",
+   "Press the shortcut. Nothing visible happens, but it's now on your clipboard.",
+   "Paste it anywhere with Ctrl + V (⌘ + V on Mac)."
+  ],
+  "tip": "Copy works on files too. Select a file in File Explorer or Finder, copy it, then paste it into another folder to duplicate it.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "cut",
+  "order": 1,
+  "slug": "cut",
+  "name": "Cut",
+  "category": "The Essentials",
+  "win": "Ctrl|X",
+  "mac": "⌘|X",
+  "summary": "Removes the selected text and puts it on the clipboard, ready to paste somewhere else. It's the keyboard way to move things.",
+  "steps": [
+   "Select the text you want to move.",
+   "Press the shortcut. The text disappears.",
+   "Click where it should go and paste."
+  ],
+  "tip": "On Windows, Ctrl + X also moves files in File Explorer. On a Mac, Finder doesn't cut files: copy with ⌘ + C, then press ⌥ + ⌘ + V to move instead of copy.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "paste",
+  "order": 2,
+  "slug": "paste",
+  "name": "Paste",
+  "category": "The Essentials",
+  "win": "Ctrl|V",
+  "mac": "⌘|V",
+  "summary": "Drops whatever is on your clipboard at the cursor. The other half of copy and cut.",
+  "steps": [
+   "Copy or cut something first.",
+   "Click where you want it.",
+   "Press the shortcut. You can paste the same thing as many times as you like."
+  ],
+  "tip": "Pasted text bringing weird fonts and colors with it? Paste as plain text instead.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "undo",
+  "order": 3,
+  "slug": "undo",
+  "name": "Undo",
+  "category": "The Essentials",
+  "win": "Ctrl|Z",
+  "mac": "⌘|Z",
+  "summary": "Reverses your last action. Deleted a paragraph, moved the wrong file, or formatted the wrong cell? Undo it.",
+  "steps": [
+   "Notice the mistake.",
+   "Press the shortcut once to step back one action.",
+   "Keep pressing to go back further."
+  ],
+  "tip": "Undo works in File Explorer and Finder too. Accidentally dragged a folder somewhere? Undo moves it back.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "redo",
+  "order": 4,
+  "slug": "redo",
+  "name": "Redo",
+  "category": "The Essentials",
+  "win": "Ctrl|Y",
+  "mac": "⌘|⇧|Z",
+  "summary": "Brings back what you just undid. If you pressed undo one time too many, this is the fix.",
+  "steps": [
+   "Undo something.",
+   "Press redo to bring it back.",
+   "Press again to step forward through each undo."
+  ],
+  "tip": "Many Windows apps (Photoshop, VS Code, Figma) also accept Ctrl + Shift + Z, the same pattern as the Mac.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "select-all",
+  "order": 5,
+  "slug": "select-all",
+  "name": "Select all",
+  "category": "The Essentials",
+  "win": "Ctrl|A",
+  "mac": "⌘|A",
+  "summary": "Selects everything in the current box, document, folder or page in one press.",
+  "steps": [
+   "Click inside the text box, document or folder first, so the shortcut knows what 'all' means.",
+   "Press the shortcut.",
+   "Now copy, delete or format everything at once."
+  ],
+  "tip": "Select all, then hold Ctrl (⌘ on Mac) and click the few items you don't want to deselect them. It's faster than picking 40 files one by one.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "save",
+  "order": 6,
+  "slug": "save",
+  "name": "Save",
+  "category": "The Essentials",
+  "win": "Ctrl|S",
+  "mac": "⌘|S",
+  "summary": "Saves the file you're working on. Pressing it out of habit is the cheapest insurance against crashes.",
+  "steps": [
+   "Press it whenever you pause.",
+   "The first time, a Save dialog asks for a name and folder.",
+   "After that it saves silently."
+  ],
+  "tip": "Add Shift (Ctrl + Shift + S or ⌘ + ⇧ + S) for Save As in most apps, to save a copy under a new name.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "find",
+  "order": 7,
+  "slug": "find",
+  "name": "Find on page or in a file",
+  "category": "The Essentials",
+  "win": "Ctrl|F",
+  "mac": "⌘|F",
+  "summary": "Opens a search box that finds any word on the current web page, document, PDF or spreadsheet.",
+  "steps": [
+   "Press the shortcut.",
+   "Type the word or phrase.",
+   "Press Enter to jump to the next match, Shift + Enter for the previous one."
+  ],
+  "tip": "In File Explorer and Finder, the same shortcut jumps to the search box for files.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "print",
+  "order": 8,
+  "slug": "print",
+  "name": "Print",
+  "category": "The Essentials",
+  "win": "Ctrl|P",
+  "mac": "⌘|P",
+  "summary": "Opens the print dialog for the current page or document.",
+  "steps": [
+   "Press the shortcut.",
+   "Pick a printer, or choose 'Save as PDF' / 'Microsoft Print to PDF'.",
+   "Press Enter to print."
+  ],
+  "tip": "Need a PDF of a web page? Print it and choose Save as PDF. No extra software needed.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "clipboard-history",
+  "order": 9,
+  "slug": "clipboard-history",
+  "name": "Clipboard history",
+  "category": "The Essentials",
+  "win": "Win|V",
+  "mac": null,
+  "summary": "Shows the last things you copied, not just the latest, so you can paste any of them.",
+  "steps": [
+   "Press Win + V. The first time, Windows asks to turn it on. Say yes.",
+   "Copy a few things as normal.",
+   "Press Win + V again and click any item to paste it."
+  ],
+  "tip": "Pin the things you paste all the time (your address, an email signature) with the pin icon and they'll stay through restarts.",
+  "note": "Mac has no built-in shortcut for this. Clipboard managers like Maccy add one.",
+  "youtube": "1ePkQMWhzeI",
+  "keyword": null
+ },
+ {
+  "id": "close-tab-or-window",
+  "order": 10,
+  "slug": "close-tab-or-window",
+  "name": "Close a tab or window",
+  "category": "The Essentials",
+  "win": "Ctrl|W",
+  "mac": "⌘|W",
+  "summary": "Closes the current browser tab, document or window without hunting for the tiny X.",
+  "steps": [
+   "Make sure the tab or window you want to close is in front.",
+   "Press the shortcut.",
+   "Keep pressing to close tabs one after another."
+  ],
+  "tip": "Closed one too many? Ctrl + Shift + T (⌘ + ⇧ + T) brings the last tab back.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "quit-app",
+  "order": 11,
+  "slug": "quit-app",
+  "name": "Close or quit an app",
+  "category": "The Essentials",
+  "win": "Alt|F4",
+  "mac": "⌘|Q",
+  "summary": "Closes the whole app, not just one window. On a Mac, closing the last window often leaves the app running; ⌘ + Q really quits it.",
+  "steps": [
+   "Click the app you want to close.",
+   "Press the shortcut.",
+   "If you have unsaved work, the app asks first."
+  ],
+  "tip": "On Windows, pressing Alt + F4 on the empty desktop opens the Shut Down menu.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "jump-one-word",
+  "order": 12,
+  "slug": "jump-one-word",
+  "name": "Jump one word at a time",
+  "category": "Text Editing",
+  "win": "Ctrl|← / →",
+  "mac": "⌥|← / →",
+  "summary": "Moves the cursor a whole word left or right instead of one letter at a time.",
+  "steps": [
+   "Click in any text.",
+   "Hold Ctrl (Option on Mac) and tap the arrow keys.",
+   "The cursor hops word by word."
+  ],
+  "tip": "Combine it with Backspace or Delete to fix a typo three words back without touching the mouse.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "select-one-word",
+  "order": 13,
+  "slug": "select-one-word",
+  "name": "Select one word at a time",
+  "category": "Text Editing",
+  "win": "Ctrl|Shift|← / →",
+  "mac": "⌥|⇧|← / →",
+  "summary": "Selects text a word at a time, which is much more accurate than dragging the mouse.",
+  "steps": [
+   "Put the cursor at the start of what you want.",
+   "Hold Ctrl + Shift (Option + Shift on Mac).",
+   "Tap the arrow keys to grow the selection word by word."
+  ],
+  "tip": "Overshot? Keep holding the keys and tap the opposite arrow to shrink the selection.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "delete-whole-word",
+  "order": 14,
+  "slug": "delete-whole-word",
+  "name": "Delete a whole word",
+  "category": "Text Editing",
+  "win": "Ctrl|Backspace",
+  "mac": "⌥|Delete",
+  "summary": "Deletes the entire word behind the cursor in one press instead of letter by letter.",
+  "steps": [
+   "Type a word you want to take back.",
+   "Press the shortcut once per word.",
+   "Keep going to delete several words."
+  ],
+  "tip": "Ctrl + Delete on Windows (fn + ⌥ + Delete on Mac) deletes the word in front of the cursor instead.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "start-end-of-line",
+  "order": 15,
+  "slug": "start-end-of-line",
+  "name": "Jump to the start or end of a line",
+  "category": "Text Editing",
+  "win": "Home / End",
+  "mac": "⌘|← / →",
+  "summary": "Sends the cursor to the very beginning or end of the current line.",
+  "steps": [
+   "Click anywhere in a line of text.",
+   "Press Home (⌘ + ← on Mac) to go to the start, End (⌘ + → on Mac) for the end.",
+   "Add Shift to select up to that point."
+  ],
+  "tip": "No Home and End keys on your laptop or 60% keyboard? They're usually Fn + ← and Fn + →.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "top-bottom-of-document",
+  "order": 16,
+  "slug": "top-bottom-of-document",
+  "name": "Jump to the top or bottom of a document",
+  "category": "Text Editing",
+  "win": "Ctrl|Home / End",
+  "mac": "⌘|↑ / ↓",
+  "summary": "Jumps straight to the first or last line of a document, a long page or a spreadsheet.",
+  "steps": [
+   "Click in the document.",
+   "Press the shortcut for the top or bottom.",
+   "Add Shift to select everything between the cursor and that point."
+  ],
+  "tip": "In Excel, Ctrl + Home goes to cell A1 and Ctrl + End goes to the last cell with data.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "select-text",
+  "order": 17,
+  "slug": "select-text",
+  "name": "Select text with the keyboard",
+  "category": "Text Editing",
+  "win": "Shift|Arrows",
+  "mac": "⇧|Arrows",
+  "summary": "Holding Shift while you move the cursor selects everything it passes over.",
+  "steps": [
+   "Put the cursor where the selection should start.",
+   "Hold Shift.",
+   "Use the arrows to grow the selection a letter or line at a time."
+  ],
+  "tip": "Shift works with every movement shortcut: Shift + End selects to the end of the line, Shift + Ctrl + End to the end of the document.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "paste-plain-text",
+  "order": 18,
+  "slug": "paste-plain-text",
+  "name": "Paste as plain text",
+  "category": "Text Editing",
+  "win": "Ctrl|Shift|V",
+  "mac": "⌥|⇧|⌘|V",
+  "summary": "Pastes just the words, without the fonts, colors and links from wherever you copied them.",
+  "steps": [
+   "Copy text from a website or email.",
+   "Click into your document or message.",
+   "Press the shortcut to paste it in the surrounding style."
+  ],
+  "tip": "Works in Chrome, Edge, Google Docs, Slack, Teams and most modern apps.",
+  "note": "In Microsoft Word, Ctrl + Shift + V pastes formatting instead. Use Paste Options > Keep Text Only there.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "emoji-picker",
+  "order": 19,
+  "slug": "emoji-picker",
+  "name": "Open the emoji and symbol picker",
+  "category": "Text Editing",
+  "win": "Win|.",
+  "mac": "⌃|⌘|Space",
+  "summary": "Opens a panel of emoji, symbols (©, °, →) and kaomoji you can insert anywhere you type.",
+  "steps": [
+   "Click where you're typing.",
+   "Press the shortcut.",
+   "Type to search, for example 'thumbs', then press Enter."
+  ],
+  "tip": "On newer Macs, the 🌐 / fn key on its own can open the emoji picker too (set it in Keyboard settings).",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "delete-to-start-of-line",
+  "order": 20,
+  "slug": "delete-to-start-of-line",
+  "name": "Delete to the start of the line",
+  "category": "Text Editing",
+  "win": null,
+  "mac": "⌘|Delete",
+  "summary": "On a Mac, deletes everything from the cursor back to the start of the line in one press.",
+  "steps": [
+   "Put the cursor at the end of what you want gone.",
+   "Press ⌘ + Delete.",
+   "Everything to the left on that line disappears."
+  ],
+  "tip": "On Windows you can do the same in two steps: Shift + Home to select to the start of the line, then Backspace.",
+  "note": "Careful in Finder: ⌘ + Delete there moves the selected file to the Trash.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "switch-apps",
+  "order": 21,
+  "slug": "switch-apps",
+  "name": "Switch between apps",
+  "category": "Windows, Apps & Desktops",
+  "win": "Alt|Tab",
+  "mac": "⌘|Tab",
+  "summary": "Flips between open apps without reaching for the taskbar or Dock.",
+  "steps": [
+   "Hold Alt (⌘ on Mac).",
+   "Tap Tab to move through the open apps.",
+   "Let go to switch to the highlighted one."
+  ],
+  "tip": "A single quick tap flips between your two most recent apps, which is perfect for copying between two windows.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "task-view-mission-control",
+  "order": 22,
+  "slug": "task-view-mission-control",
+  "name": "See every open window (Task View / Mission Control)",
+  "category": "Windows, Apps & Desktops",
+  "win": "Win|Tab",
+  "mac": "⌃|↑",
+  "summary": "Zooms out to show every open window at once, plus your virtual desktops.",
+  "steps": [
+   "Press the shortcut.",
+   "Click (or arrow to) the window you want.",
+   "Press Esc to go back without switching."
+  ],
+  "tip": "Task View and Mission Control are also where you drag windows between desktops.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "show-desktop",
+  "order": 23,
+  "slug": "show-desktop",
+  "name": "Show the desktop",
+  "category": "Windows, Apps & Desktops",
+  "win": "Win|D",
+  "mac": null,
+  "summary": "Minimizes everything so you can see the desktop. Press it again and every window comes back.",
+  "steps": [
+   "Press Win + D.",
+   "Grab the file or shortcut from the desktop.",
+   "Press Win + D again to restore your windows."
+  ],
+  "tip": "The 'boss key': one press hides everything on screen.",
+  "note": "On a Mac, use the Show Desktop gesture (thumb and three fingers spread) or set a hot corner.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "snap-window",
+  "order": 24,
+  "slug": "snap-window",
+  "name": "Snap a window left or right",
+  "category": "Windows, Apps & Desktops",
+  "win": "Win|← / →",
+  "mac": null,
+  "summary": "Snaps the current window to fill exactly half the screen, so two apps sit side by side.",
+  "steps": [
+   "Click the first window and press Win + ←.",
+   "Windows offers your other apps for the right half. Pick one.",
+   "Press Win + → / ← again to move a window between halves and monitors."
+  ],
+  "tip": "Add Win + ↑ or Win + ↓ after snapping to make quarter-screen windows.",
+  "note": "Recent macOS versions can tile windows with the 🌐 fn + Control + arrow shortcuts. Older Macs need an app like Rectangle.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "maximize-window",
+  "order": 25,
+  "slug": "maximize-window",
+  "name": "Maximize a window",
+  "category": "Windows, Apps & Desktops",
+  "win": "Win|↑",
+  "mac": null,
+  "summary": "Makes the current window fill the screen, without going into full-screen mode.",
+  "steps": [
+   "Click the window.",
+   "Press Win + ↑.",
+   "Press Win + ↓ to restore it to its old size."
+  ],
+  "tip": "Win + Shift + ↑ stretches a window to the full height of the screen while keeping its width.",
+  "note": "On a Mac, double-clicking a window's title bar zooms it to fill the screen.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "minimize-window",
+  "order": 26,
+  "slug": "minimize-window",
+  "name": "Minimize or hide a window",
+  "category": "Windows, Apps & Desktops",
+  "win": "Win|↓",
+  "mac": "⌘|M",
+  "summary": "Sends the current window down to the taskbar or Dock.",
+  "steps": [
+   "Click the window.",
+   "Press the shortcut.",
+   "Bring it back from the taskbar, Dock, or with Alt + Tab / ⌘ + Tab."
+  ],
+  "tip": "On Windows, if the window is maximized, the first Win + ↓ restores it and the second minimizes it.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "hide-app",
+  "order": 27,
+  "slug": "hide-app",
+  "name": "Hide an app",
+  "category": "Windows, Apps & Desktops",
+  "win": null,
+  "mac": "⌘|H",
+  "summary": "On a Mac, hides every window of the current app instantly. It keeps running; it's just out of sight.",
+  "steps": [
+   "Click the app.",
+   "Press ⌘ + H.",
+   "Switch back to it with ⌘ + Tab and its windows return."
+  ],
+  "tip": "⌥ + ⌘ + H hides every app except the one you're using. Instant focus mode.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "snap-layouts",
+  "order": 28,
+  "slug": "snap-layouts",
+  "name": "Open Snap Layouts",
+  "category": "Windows, Apps & Desktops",
+  "win": "Win|Z",
+  "mac": null,
+  "summary": "Shows a menu of window layouts (halves, thirds, quarters) for the current window. Windows 11 only.",
+  "steps": [
+   "Click the window you want to place.",
+   "Press Win + Z.",
+   "Press the number of the layout, then the number of the zone (or just click it)."
+  ],
+  "tip": "Hover over a window's maximize button with the mouse to get the same menu.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "switch-windows-same-app",
+  "order": 29,
+  "slug": "switch-windows-same-app",
+  "name": "Switch between windows of the same app",
+  "category": "Windows, Apps & Desktops",
+  "win": null,
+  "mac": "⌘|`",
+  "summary": "On a Mac, cycles through the windows of the app you're in, for example between two Chrome windows.",
+  "steps": [
+   "Open two windows of the same app.",
+   "Press ⌘ + ` (the key above Tab).",
+   "Each press moves to the next window."
+  ],
+  "tip": "⌘ + Tab switches apps; ⌘ + ` switches windows inside an app. Learn both and you'll rarely click a window again.",
+  "note": "On Windows, hold Ctrl while clicking an app's taskbar icon to cycle through its windows.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "full-screen",
+  "order": 30,
+  "slug": "full-screen",
+  "name": "Go full screen",
+  "category": "Windows, Apps & Desktops",
+  "win": "F11",
+  "mac": "⌃|⌘|F",
+  "summary": "Puts the current app in full-screen mode, hiding the taskbar, toolbars and everything else.",
+  "steps": [
+   "Click the app.",
+   "Press the shortcut.",
+   "Press it again (or Esc on Windows) to leave full screen."
+  ],
+  "tip": "Great for reading, presentations and focus. In browsers it hides the tabs and address bar too.",
+  "note": "F11 works in browsers and File Explorer on Windows; not every app supports it. On some laptops, press Fn + F11.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "new-virtual-desktop",
+  "order": 31,
+  "slug": "new-virtual-desktop",
+  "name": "Create a new virtual desktop",
+  "category": "Windows, Apps & Desktops",
+  "win": "Win|Ctrl|D",
+  "mac": null,
+  "summary": "Adds a fresh, empty desktop, like a second monitor you can't see. Great for keeping work and personal apps apart.",
+  "steps": [
+   "Press Win + Ctrl + D.",
+   "Open the apps you want on this desktop.",
+   "Close a desktop with Win + Ctrl + F4. Its windows move to the next desktop."
+  ],
+  "tip": "Right-click a desktop in Task View (Win + Tab) to rename it, for example 'Work' and 'School'.",
+  "note": "On a Mac, add a Space from Mission Control (⌃ + ↑), then click + at the top right.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "switch-desktop",
+  "order": 32,
+  "slug": "switch-desktop",
+  "name": "Switch virtual desktops or Spaces",
+  "category": "Windows, Apps & Desktops",
+  "win": "Win|Ctrl|← / →",
+  "mac": "⌃|← / →",
+  "summary": "Slides between your virtual desktops (Windows) or Spaces (Mac).",
+  "steps": [
+   "Create at least two desktops.",
+   "Press the shortcut with ← or →.",
+   "Each desktop keeps its own set of windows."
+  ],
+  "tip": "A full-screen app on a Mac gets its own Space, so ⌃ + ← / → also flips in and out of full-screen apps.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "screenshot-area",
+  "order": 33,
+  "slug": "screenshot-area",
+  "name": "Screenshot part of the screen",
+  "category": "Screenshots",
+  "win": "Win|Shift|S",
+  "mac": "⌘|⇧|4",
+  "summary": "Lets you drag a box around anything on screen and capture just that part.",
+  "steps": [
+   "Press the shortcut. The screen dims.",
+   "Drag a box around what you want.",
+   "Windows copies it to the clipboard (click the pop-up to mark it up); a Mac saves it to the desktop."
+  ],
+  "tip": "On a Mac, add Control (⌃ + ⌘ + ⇧ + 4) to copy the screenshot to the clipboard instead of saving a file.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "screenshot-full-screen",
+  "order": 34,
+  "slug": "screenshot-full-screen",
+  "name": "Screenshot the whole screen",
+  "category": "Screenshots",
+  "win": "Win|PrtScn",
+  "mac": "⌘|⇧|3",
+  "summary": "Captures the entire screen and saves it as an image file straight away.",
+  "steps": [
+   "Press the shortcut. The screen flashes briefly.",
+   "On Windows, find it in Pictures > Screenshots.",
+   "On a Mac, it lands on your desktop."
+  ],
+  "tip": "No PrtScn key? On many laptops it's Fn + PrtScn, or Win + Fn + PrtScn.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "screenshot-window",
+  "order": 35,
+  "slug": "screenshot-window",
+  "name": "Screenshot one window",
+  "category": "Screenshots",
+  "win": "Alt|PrtScn",
+  "mac": "⌘|⇧|4|Space",
+  "summary": "Captures just the active window with no desktop clutter around it.",
+  "steps": [
+   "Click the window you want.",
+   "Windows: press Alt + PrtScn to copy it. Mac: press ⌘ + ⇧ + 4, then Space, then click the window.",
+   "Paste it (Windows) or find it on your desktop (Mac)."
+  ],
+  "tip": "Mac window screenshots include a soft shadow. Hold Option while clicking to leave it out.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "screenshot-toolbar",
+  "order": 36,
+  "slug": "screenshot-toolbar",
+  "name": "Open the screenshot and screen-recording toolbar",
+  "category": "Screenshots",
+  "win": null,
+  "mac": "⌘|⇧|5",
+  "summary": "On a Mac, opens a toolbar with every capture option, including screen recording, timers and where to save.",
+  "steps": [
+   "Press ⌘ + ⇧ + 5.",
+   "Pick screen, window, area, or one of the record options.",
+   "Use Options to change the save folder or set a 5-second timer."
+  ],
+  "tip": "Change the save location once here (for example to a Screenshots folder) and your desktop stays clean.",
+  "note": "On Windows 11, open the Snipping Tool (Win + Shift + S, then the video icon) to record your screen.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "screenshot-to-clipboard-mac",
+  "order": 37,
+  "slug": "screenshot-to-clipboard-mac",
+  "name": "Copy a screenshot instead of saving it",
+  "category": "Screenshots",
+  "win": null,
+  "mac": "⌃|⌘|⇧|4",
+  "summary": "On a Mac, add Control to any screenshot shortcut and it goes to the clipboard instead of becoming a file on your desktop.",
+  "steps": [
+   "Press ⌃ + ⌘ + ⇧ + 4 and drag a box (or ⌃ + ⌘ + ⇧ + 3 for the full screen).",
+   "Nothing is saved to the desktop.",
+   "Paste it straight into an email, chat or document with ⌘ + V."
+  ],
+  "tip": "Perfect for sharing quick screenshots in Slack or Messages without cluttering your desktop.",
+  "note": "Windows' Win + Shift + S already copies to the clipboard by default.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "search-apps",
+  "order": 38,
+  "slug": "search-apps",
+  "name": "Search for any app or file (Spotlight / Start)",
+  "category": "System Power Moves",
+  "win": "Win",
+  "mac": "⌘|Space",
+  "summary": "Opens system search so you can launch any app, file or setting by typing a few letters.",
+  "steps": [
+   "Press the shortcut.",
+   "Type the first few letters of what you want, like 'calc'.",
+   "Press Enter to open it."
+  ],
+  "tip": "This is the 'launcher' trick from the Top 10 video: it's faster than any Start menu or Dock you could organize.",
+  "note": "On Windows you can also press Win + S to open search directly.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "open-file-explorer",
+  "order": 39,
+  "slug": "open-file-explorer",
+  "name": "Open File Explorer or Finder",
+  "category": "System Power Moves",
+  "win": "Win|E",
+  "mac": "⌥|⌘|Space",
+  "summary": "Opens a new window for browsing your files.",
+  "steps": [
+   "Press the shortcut.",
+   "A new File Explorer (or Finder) window opens.",
+   "Start typing a folder name to jump to it."
+  ],
+  "tip": "Set File Explorer to open on 'This PC' or a favorite folder instead of Home in its Folder Options.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "open-settings",
+  "order": 40,
+  "slug": "open-settings",
+  "name": "Open Windows Settings",
+  "category": "System Power Moves",
+  "win": "Win|I",
+  "mac": null,
+  "summary": "Opens the Settings app directly.",
+  "steps": [
+   "Press Win + I.",
+   "Type in the search box at the top to find any setting.",
+   "Press Enter."
+  ],
+  "tip": "Searching in Settings is much faster than clicking through menus. Try 'display', 'bluetooth' or 'default apps'.",
+  "note": "On a Mac, open System Settings from the  menu or Spotlight. For the current app's settings, press ⌘ + ,.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "app-settings",
+  "order": 41,
+  "slug": "app-settings",
+  "name": "Open the current app's settings",
+  "category": "System Power Moves",
+  "win": null,
+  "mac": "⌘|,",
+  "summary": "On a Mac, opens Settings (Preferences) for whatever app you're using.",
+  "steps": [
+   "Click the app.",
+   "Press ⌘ + , (comma).",
+   "Its settings window opens."
+  ],
+  "tip": "Lots of Windows apps borrow this one too: Ctrl + , opens settings in VS Code, Slack, Discord and Teams.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "lock-computer",
+  "order": 42,
+  "slug": "lock-computer",
+  "name": "Lock your computer",
+  "category": "System Power Moves",
+  "win": "Win|L",
+  "mac": "⌃|⌘|Q",
+  "summary": "Locks the screen instantly. Your apps stay open, but no one can get in without your password.",
+  "steps": [
+   "Press the shortcut whenever you step away.",
+   "The lock screen appears.",
+   "Sign back in to pick up where you left off."
+  ],
+  "tip": "In an office (and in IT), locking every time you stand up is the single best security habit you can build.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "power-user-menu",
+  "order": 43,
+  "slug": "power-user-menu",
+  "name": "Open the Power User menu",
+  "category": "System Power Moves",
+  "win": "Win|X",
+  "mac": null,
+  "summary": "Opens a hidden menu with Device Manager, Disk Management, Terminal, Task Manager, Settings and shut down options.",
+  "steps": [
+   "Press Win + X.",
+   "Each item has an underlined letter.",
+   "Press that letter (for example M for Device Manager) to open it."
+  ],
+  "tip": "IT techs live in this menu. Win + X, then U, then U shuts the PC down without the mouse.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "run-box",
+  "order": 44,
+  "slug": "run-box",
+  "name": "Open the Run box",
+  "category": "System Power Moves",
+  "win": "Win|R",
+  "mac": null,
+  "summary": "Opens Run, a tiny box that launches programs and folders by name.",
+  "steps": [
+   "Press Win + R.",
+   "Type a command, for example 'notepad', 'cmd', or '%temp%'.",
+   "Press Enter."
+  ],
+  "tip": "Useful ones: 'control' (Control Panel), 'appwiz.cpl' (uninstall programs), 'msconfig' and 'shell:startup'.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "task-manager-force-quit",
+  "order": 45,
+  "slug": "task-manager-force-quit",
+  "name": "Open Task Manager or Force Quit a frozen app",
+  "category": "System Power Moves",
+  "win": "Ctrl|Shift|Esc",
+  "mac": "⌥|⌘|Esc",
+  "summary": "Opens Task Manager on Windows or the Force Quit window on a Mac, so you can close an app that has frozen.",
+  "steps": [
+   "Press the shortcut.",
+   "Select the frozen app.",
+   "Click End task (Windows) or Force Quit (Mac)."
+  ],
+  "tip": "Task Manager also shows what's slowing your PC down. Sort by CPU or Memory to find the culprit.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "quick-settings",
+  "order": 46,
+  "slug": "quick-settings",
+  "name": "Open Quick Settings",
+  "category": "System Power Moves",
+  "win": "Win|A",
+  "mac": null,
+  "summary": "Opens the Quick Settings panel with Wi-Fi, Bluetooth, volume, brightness and Focus.",
+  "steps": [
+   "Press Win + A.",
+   "Use the arrow keys and Space to toggle a setting.",
+   "Press Esc to close."
+  ],
+  "tip": "On Windows 10, Win + A opens the Action Center, which has the same quick toggles at the bottom.",
+  "note": "On a Mac, Control Center lives in the menu bar; there's no default shortcut for it.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "show-hide-dock",
+  "order": 47,
+  "slug": "show-hide-dock",
+  "name": "Show or hide the Dock",
+  "category": "System Power Moves",
+  "win": null,
+  "mac": "⌥|⌘|D",
+  "summary": "On a Mac, turns Dock auto-hide on or off, so you get the full height of your screen back.",
+  "steps": [
+   "Press ⌥ + ⌘ + D.",
+   "The Dock slides away.",
+   "Move the pointer to the bottom of the screen to bring it back, or press the shortcut again."
+  ],
+  "tip": "Great on small laptop screens: you get more room for every app.",
+  "note": "On Windows, turn on 'Automatically hide the taskbar' in Settings > Personalization > Taskbar.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "new-tab",
+  "order": 48,
+  "slug": "new-tab",
+  "name": "Open a new tab",
+  "category": "Browser",
+  "win": "Ctrl|T",
+  "mac": "⌘|T",
+  "summary": "Opens a new browser tab with the cursor already in the address bar.",
+  "steps": [
+   "Press the shortcut.",
+   "Start typing a website or search.",
+   "Press Enter."
+  ],
+  "tip": "Ctrl + N (⌘ + N) opens a whole new window instead.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "reopen-closed-tab",
+  "order": 49,
+  "slug": "reopen-closed-tab",
+  "name": "Reopen a closed tab",
+  "category": "Browser",
+  "win": "Ctrl|Shift|T",
+  "mac": "⌘|⇧|T",
+  "summary": "Brings back the tab you just closed, with its history. Press it again to keep going back.",
+  "steps": [
+   "Close a tab by accident.",
+   "Press the shortcut.",
+   "It reopens exactly where you left it."
+  ],
+  "tip": "Closed the whole browser? Pressing it in a new window often restores every tab from the last session.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "next-tab",
+  "order": 50,
+  "slug": "next-tab",
+  "name": "Switch to the next tab",
+  "category": "Browser",
+  "win": "Ctrl|Tab",
+  "mac": "⌃|Tab",
+  "summary": "Moves one tab to the right. Add Shift to move one tab to the left.",
+  "steps": [
+   "Open a few tabs.",
+   "Press the shortcut to step through them.",
+   "Add Shift to go backwards."
+  ],
+  "tip": "On a Mac, ⌘ + ⌥ + → and ← also switch tabs in most browsers.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "jump-to-tab",
+  "order": 51,
+  "slug": "jump-to-tab",
+  "name": "Jump to a specific tab",
+  "category": "Browser",
+  "win": "Ctrl|1–8",
+  "mac": "⌘|1–8",
+  "summary": "Jumps straight to tab 1 through 8. The number is the tab's position from the left.",
+  "steps": [
+   "Count where the tab is.",
+   "Press the shortcut with that number.",
+   "Ctrl + 9 (⌘ + 9) always jumps to the last tab."
+  ],
+  "tip": "Keep your email or calendar pinned as the first tab, and Ctrl + 1 always takes you there.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "address-bar",
+  "order": 52,
+  "slug": "address-bar",
+  "name": "Jump to the address bar",
+  "category": "Browser",
+  "win": "Ctrl|L",
+  "mac": "⌘|L",
+  "summary": "Selects the address bar so you can type a new web address or search right away.",
+  "steps": [
+   "Press the shortcut. The current address is highlighted.",
+   "Type over it.",
+   "Press Enter."
+  ],
+  "tip": "Alt + D and F6 do the same on Windows. Ctrl + L also works in File Explorer's address bar.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "incognito-window",
+  "order": 53,
+  "slug": "incognito-window",
+  "name": "Open a private (incognito) window",
+  "category": "Browser",
+  "win": "Ctrl|Shift|N",
+  "mac": "⌘|⇧|N",
+  "summary": "Opens a private window that doesn't save history, cookies or what you type in forms after you close it.",
+  "steps": [
+   "Press the shortcut in Chrome or Edge (InPrivate).",
+   "Browse as normal.",
+   "Close the window and the session is gone."
+  ],
+  "tip": "Handy for logging into a second account or checking how a site looks when you're signed out.",
+  "note": "In Firefox it's Ctrl + Shift + P (⌘ + ⇧ + P). Private browsing doesn't hide you from your employer or internet provider.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "bookmark-page",
+  "order": 54,
+  "slug": "bookmark-page",
+  "name": "Bookmark the page",
+  "category": "Browser",
+  "win": "Ctrl|D",
+  "mac": "⌘|D",
+  "summary": "Saves the current page to your bookmarks.",
+  "steps": [
+   "Press the shortcut.",
+   "Pick a folder, or rename it.",
+   "Press Enter to save."
+  ],
+  "tip": "Ctrl + Shift + B (⌘ + ⇧ + B) shows or hides the bookmarks bar.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "zoom-in-out",
+  "order": 55,
+  "slug": "zoom-in-out",
+  "name": "Zoom in and out",
+  "category": "Browser",
+  "win": "Ctrl|+ / −",
+  "mac": "⌘|+ / −",
+  "summary": "Makes everything on the page bigger or smaller. Works in browsers and most apps.",
+  "steps": [
+   "Press the shortcut with + to zoom in.",
+   "Press it with − to zoom out.",
+   "Reset with Ctrl + 0 (⌘ + 0)."
+  ],
+  "tip": "Hold Ctrl and scroll the mouse wheel for smooth zooming, or pinch on a trackpad.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "reset-zoom",
+  "order": 56,
+  "slug": "reset-zoom",
+  "name": "Reset zoom",
+  "category": "Browser",
+  "win": "Ctrl|0",
+  "mac": "⌘|0",
+  "summary": "Puts the page back to 100% zoom.",
+  "steps": [
+   "Notice that a page looks too big or too small.",
+   "Press the shortcut (that's a zero).",
+   "It snaps back to normal size."
+  ],
+  "tip": "Browsers remember zoom per website, so if one site always looks huge, this fixes it for good.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "reload-page",
+  "order": 57,
+  "slug": "reload-page",
+  "name": "Reload the page",
+  "category": "Browser",
+  "win": "Ctrl|R",
+  "mac": "⌘|R",
+  "summary": "Refreshes the current page.",
+  "steps": [
+   "Press the shortcut.",
+   "The page loads again.",
+   "Still broken? Add Shift for a hard reload that skips the cache."
+  ],
+  "tip": "F5 also reloads on Windows. Ctrl + Shift + R (⌘ + ⇧ + R) is the hard reload that fixes most 'it looks wrong' problems.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "rename-file",
+  "order": 58,
+  "slug": "rename-file",
+  "name": "Rename a file",
+  "category": "File Explorer & Finder",
+  "win": "F2",
+  "mac": "Return",
+  "summary": "Starts renaming the selected file or folder without right-clicking.",
+  "steps": [
+   "Click the file once to select it.",
+   "Press the shortcut. The name is highlighted (without the extension).",
+   "Type the new name and press Enter."
+  ],
+  "tip": "In File Explorer, press Tab while renaming to jump to the next file and keep going. Select several files and press F2 to rename them all as a numbered series.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "new-folder",
+  "order": 59,
+  "slug": "new-folder",
+  "name": "Create a new folder",
+  "category": "File Explorer & Finder",
+  "win": "Ctrl|Shift|N",
+  "mac": "⌘|⇧|N",
+  "summary": "Creates a new folder in the current location, ready to be named.",
+  "steps": [
+   "Open the location in File Explorer or Finder.",
+   "Press the shortcut.",
+   "Type a name and press Enter."
+  ],
+  "tip": "On a Mac, select some files and press ⌃ + ⌘ + N to create a new folder with those files already inside.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "up-one-folder",
+  "order": 60,
+  "slug": "up-one-folder",
+  "name": "Go up one folder",
+  "category": "File Explorer & Finder",
+  "win": "Alt|↑",
+  "mac": "⌘|↑",
+  "summary": "Jumps to the parent folder, the one that contains the folder you're in.",
+  "steps": [
+   "Open any folder.",
+   "Press the shortcut.",
+   "Keep pressing to climb toward the top of the drive."
+  ],
+  "tip": "Alt + ← and → (⌘ + [ and ] on Mac) go back and forward through folders, like a browser.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "properties-get-info",
+  "order": 61,
+  "slug": "properties-get-info",
+  "name": "See file properties (Get Info)",
+  "category": "File Explorer & Finder",
+  "win": "Alt|Enter",
+  "mac": "⌘|I",
+  "summary": "Opens the details for the selected file: size, location, dates, permissions and more.",
+  "steps": [
+   "Select a file or folder.",
+   "Press the shortcut.",
+   "Check its size, location or sharing settings."
+  ],
+  "tip": "Select several files first and Windows adds up their total size.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "copy-file-path",
+  "order": 62,
+  "slug": "copy-file-path",
+  "name": "Copy a file's full path",
+  "category": "File Explorer & Finder",
+  "win": "Ctrl|Shift|C",
+  "mac": "⌥|⌘|C",
+  "summary": "Copies the selected file's full location (like C:\\Users\\you\\file.pdf) to paste into a chat, script or upload box.",
+  "steps": [
+   "Select the file.",
+   "Press the shortcut.",
+   "Paste the path wherever you need it."
+  ],
+  "tip": "Pasting a full path into an 'Open file' box takes you straight to the file.",
+  "note": "Ctrl + Shift + C is a Windows 11 File Explorer shortcut. On Windows 10, hold Shift, right-click the file and choose 'Copy as path'.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "move-to-trash",
+  "order": 63,
+  "slug": "move-to-trash",
+  "name": "Delete a file (move to the Recycle Bin or Trash)",
+  "category": "File Explorer & Finder",
+  "win": "Delete",
+  "mac": "⌘|Delete",
+  "summary": "Moves the selected files to the Recycle Bin or Trash, where you can still get them back.",
+  "steps": [
+   "Select the files.",
+   "Press the shortcut.",
+   "Changed your mind? Undo (Ctrl + Z / ⌘ + Z) puts them back."
+  ],
+  "tip": "Undo works right after deleting, so a slip of the finger is easy to fix.",
+  "note": null,
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "delete-forever",
+  "order": 64,
+  "slug": "delete-forever",
+  "name": "Delete a file forever",
+  "category": "File Explorer & Finder",
+  "win": "Shift|Delete",
+  "mac": "⌥|⌘|Delete",
+  "summary": "Deletes the selected files permanently, skipping the Recycle Bin or Trash.",
+  "steps": [
+   "Select the files you're sure about.",
+   "Press the shortcut.",
+   "Confirm. They're gone for good."
+  ],
+  "tip": "Use this for huge files you'll never need again, so they don't sit in the Recycle Bin taking up space.",
+  "note": "There's no undo. Double-check what's selected first.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "quick-look",
+  "order": 65,
+  "slug": "quick-look",
+  "name": "Preview a file instantly (Quick Look)",
+  "category": "File Explorer & Finder",
+  "win": null,
+  "mac": "Space",
+  "summary": "On a Mac, shows a full preview of the selected file (PDFs, photos, videos, documents) without opening any app.",
+  "steps": [
+   "Select a file in Finder.",
+   "Press Space.",
+   "Use the arrow keys to preview the next file. Press Space again to close."
+  ],
+  "tip": "Hold Option and press Space to open the preview full screen.",
+  "note": "Windows has no built-in equivalent. The free Microsoft PowerToys 'Peek' tool adds one (Ctrl + Space).",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "show-hidden-files",
+  "order": 66,
+  "slug": "show-hidden-files",
+  "name": "Show hidden files",
+  "category": "File Explorer & Finder",
+  "win": null,
+  "mac": "⌘|⇧|.",
+  "summary": "On a Mac, shows or hides the hidden files and folders in Finder.",
+  "steps": [
+   "Open a folder in Finder.",
+   "Press ⌘ + ⇧ + . (period).",
+   "Hidden items appear faded. Press it again to hide them."
+  ],
+  "tip": "Hidden files are usually hidden for a reason. Look, but don't delete them unless you know what they do.",
+  "note": "On Windows, turn on View > Show > Hidden items in File Explorer.",
+  "youtube": null,
+  "keyword": null
+ },
+ {
+  "id": "go-to-folder",
+  "order": 67,
+  "slug": "go-to-folder",
+  "name": "Go to a folder by typing its path",
+  "category": "File Explorer & Finder",
+  "win": "Ctrl|L",
+  "mac": "⌘|⇧|G",
+  "summary": "Lets you type or paste a folder path and jump straight there.",
+  "steps": [
+   "Open File Explorer or Finder.",
+   "Press the shortcut.",
+   "Type or paste a path, for example ~/Downloads or C:\\Users, and press Enter."
+  ],
+  "tip": "On a Mac, ⌘ + ⇧ + G is the only easy way into hidden folders like ~/Library.",
+  "note": "On Windows, this selects File Explorer's address bar (Alt + D does the same).",
+  "youtube": null,
+  "keyword": null
+ }
+]

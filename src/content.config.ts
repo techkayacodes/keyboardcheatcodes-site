@@ -1,5 +1,5 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+import { glob, file } from 'astro/loaders';
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: z.object({
@@ -13,4 +13,21 @@ const blog = defineCollection({
     draft: z.boolean().default(false),
   }),
 });
-export const collections = { blog };
+const shortcuts = defineCollection({
+  loader: file('src/data/shortcuts.json'),
+  schema: z.object({
+    slug: z.string(),
+    order: z.number(),
+    name: z.string(),
+    category: z.string(),
+    win: z.string().nullable(),
+    mac: z.string().nullable(),
+    summary: z.string(),
+    steps: z.array(z.string()),
+    tip: z.string(),
+    note: z.string().nullable().optional(),
+    youtube: z.string().nullable().optional(),
+    keyword: z.string().nullable().optional(),
+  }),
+});
+export const collections = { blog, shortcuts };
