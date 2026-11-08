@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import FreeSheetCTA from '../../components/FreeSheetCTA.astro';
 import PaidSheetCTA from '../../components/PaidSheetCTA.astro';
+import GearCTA from '../../components/GearCTA.astro';
 import { getCollection, render } from 'astro:content';
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -10,6 +11,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 const d = post.data;
+const isGearPost = /types-of-keyboard|type-of-keyboard|keyboard-size/.test(post.id);
 const jsonld = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
@@ -33,6 +35,6 @@ const jsonld = {
       </div>
     )}
     <div class="prose"><Content /></div>
-    <div style="display:grid;gap:22px;margin-top:40px"><FreeSheetCTA /><PaidSheetCTA /></div>
+    <div style="display:grid;gap:22px;margin-top:40px">{isGearPost && <GearCTA title="Every keyboard from this video, in one list" />}<FreeSheetCTA /><PaidSheetCTA /></div>
   </article>
 </Base>

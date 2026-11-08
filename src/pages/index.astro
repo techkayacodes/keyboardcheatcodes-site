@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import PostCard from '../components/PostCard.astro';
 import FreeSheetCTA from '../components/FreeSheetCTA.astro';
 import PaidSheetCTA from '../components/PaidSheetCTA.astro';
+import GearCTA from '../components/GearCTA.astro';
 import { getCollection } from 'astro:content';
 import { FREE_SHEET_URL, YOUTUBE_URL } from '../consts';
 const posts = (await getCollection('blog', ({ data }) => !data.draft))
@@ -45,6 +46,7 @@ const circles = [['#9cff1d','⌘'],['#fed120','Ctrl'],['#ffa51e','Alt'],['#fe751
     <div class="wrap" style="display:grid;gap:22px">
       <FreeSheetCTA />
       <PaidSheetCTA />
+      <GearCTA />
     </div>
   </section>
 </Base>

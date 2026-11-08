@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import PaidSheetCTA from '../components/PaidSheetCTA.astro';
+import GearCTA from '../components/GearCTA.astro';
 import { FREE_SHEET_URL } from '../consts';
 ---
 <Base title="Free Top 10 Keyboard Shortcuts Cheat Sheet (PC & Mac)" description="Get the 10 Windows and Mac keyboard shortcuts that save hours every week. A free, printable 1-page PDF." image="/images/top10-preview.png">
@@ -23,6 +24,6 @@ import { FREE_SHEET_URL } from '../consts';
       <li>One line on what each one does, so you know when to use it</li>
       <li>A "start here" tip so you learn one at a time and it actually sticks</li>
     </ul>
-    <div style="margin-top:28px"><PaidSheetCTA /></div>
+    <div style="margin-top:28px;display:grid;gap:22px"><PaidSheetCTA /><GearCTA /></div>
   </div></section>
 </Base>
