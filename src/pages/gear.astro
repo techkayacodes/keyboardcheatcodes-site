@@ -11,6 +11,11 @@ const picks = gear.picks.map((id, n) => ({ item: byId.get(id)!, label: pickLabel
 const hasAmazon = all.some((i) => i.affiliate.includes('amazon.'));
 const href = (i: Item) => i.affiliate || i.link;
 const rel = (i: Item) => (i.affiliate ? 'sponsored nofollow noopener' : 'nofollow noopener');
+const store = (i: Item) => {
+  const h = new URL(href(i)).hostname.replace(/^www\./, '');
+  const names: Record<string, string> = { 'amazon.com': 'Amazon', 'epomaker.com': 'Epomaker', 'keychron.com': 'Keychron', 'nuphy.com': 'NuPhy', 'wooting.io': 'Wooting', 'zsa.io': 'ZSA', 'moergo.com': 'MoErgo', 'olkb.com': 'OLKB' };
+  return names[h] ?? h;
+};
 const tierName: Record<string, string> = { '$': 'under $70', '$$': '$70–150', '$$$': '$150+' };
 const accent = ['var(--lime)', 'var(--yellow)', 'var(--orange)', 'var(--cyan)'];
 ---
@@ -34,7 +39,7 @@ const accent = ['var(--lime)', 'var(--yellow)', 'var(--orange)', 'var(--cyan)'];
           <strong>{item.name}</strong>
           <span class="meta">{item.kind} · {item.tier}</span>
           <span class="why">{item.why}</span>
-          <span class="go">Check price →</span>
+          <span class="go">Check price on {store(item)} →</span>
         </a>
       ))}
     </div>
@@ -50,7 +55,7 @@ const accent = ['var(--lime)', 'var(--yellow)', 'var(--orange)', 'var(--cyan)'];
             <div class="gear-top"><span class="kind">{i.kind}</span><span class="tier" title={tierName[i.tier]}>{i.tier}</span></div>
             <h3>{i.name}</h3>
             <p>{i.why}</p>
-            <a class="btn alt small-btn" href={href(i)} rel={rel(i)} target="_blank">Check price</a>
+            <a class="btn alt small-btn" href={href(i)} rel={rel(i)} target="_blank">Check price on {store(i)}</a>
           </div>
         ))}
       </div>

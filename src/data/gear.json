@@ -1,6 +1,12 @@
 {
   "_readme": "Gear page data. To turn on an affiliate link, paste it into that item's \"affiliate\" field; the page then uses it instead of \"link\" and marks it sponsored. tier: $ under 70, $$ 70-150, $$$ over 150. Prices are rough as of Nov 2026: check before quoting.",
-  "picks": ["aula-f75", "keychron-v1-max", "logitech-mx-keys-s", "wooting-80he", "keychron-q1-max"],
+  "picks": [
+    "aula-f75",
+    "keychron-v1-max",
+    "logitech-mx-keys-s",
+    "wooting-80he",
+    "keychron-q1-max"
+  ],
   "groups": [
     {
       "id": "keyboards",
@@ -8,43 +14,416 @@
       "intro": "Every board from the keyboard-size video, from full-size down to 40% and split.",
       "video": "/blog/every-keyboard-size-explained/",
       "items": [
-        { "id": "logitech-mx-keys-s", "name": "Logitech MX Keys S", "kind": "Full-size", "tier": "$$", "why": "Quiet scissor keys, backlight and 3-device switching. The office pick.", "program": "Logitech", "link": "https://www.amazon.com/s?k=Logitech+MX+Keys+S", "affiliate": "" },
-        { "id": "keychron-k10-max", "name": "Keychron K10 Max", "kind": "Full-size", "tier": "$$", "why": "Wireless mechanical full-size with a numpad, for Mac or Windows.", "program": "Keychron", "link": "https://www.keychron.com/search?q=K10+Max", "affiliate": "" },
-        { "id": "keychron-v6-max", "name": "Keychron V6 Max", "kind": "Full-size", "tier": "$$", "why": "Gasket-mount full-size with a knob, at a mid price.", "program": "Keychron", "link": "https://www.keychron.com/search?q=V6+Max", "affiliate": "" },
-        { "id": "keychron-q6-max", "name": "Keychron Q6 Max", "kind": "Full-size", "tier": "$$$", "why": "Heavy aluminum full-size. Premium feel, premium price.", "program": "Keychron", "link": "https://www.keychron.com/search?q=Q6+Max", "affiliate": "" },
-        { "id": "keychron-v5-max", "name": "Keychron V5 Max", "kind": "1800 (96%)", "tier": "$$", "why": "Keeps the numpad but squeezes the gaps out.", "program": "Keychron", "link": "https://www.keychron.com/search?q=V5+Max", "affiliate": "" },
-        { "id": "keychron-q5-max", "name": "Keychron Q5 Max", "kind": "1800 (96%)", "tier": "$$$", "why": "Aluminum 96% layout for numpad users with small desks.", "program": "Keychron", "link": "https://www.keychron.com/search?q=Q5+Max", "affiliate": "" },
-        { "id": "keychron-v3-max", "name": "Keychron V3 Max", "kind": "TKL", "tier": "$$", "why": "Tenkeyless: no numpad, more room for your mouse.", "program": "Keychron", "link": "https://www.keychron.com/search?q=V3+Max", "affiliate": "" },
-        { "id": "razer-huntsman-v3-pro-tkl", "name": "Razer Huntsman V3 Pro TKL", "kind": "TKL · analog optical", "tier": "$$$", "why": "Adjustable actuation and rapid trigger for competitive games.", "program": "Razer", "link": "https://www.amazon.com/s?k=Razer+Huntsman+V3+Pro+TKL", "affiliate": "" },
-        { "id": "wooting-80he", "name": "Wooting 80HE", "kind": "75–80% · Hall effect", "tier": "$$$", "why": "The magnetic-switch board competitive players talk about most.", "program": "None yet", "link": "https://wooting.io/", "affiliate": "" },
-        { "id": "keychron-v1-max", "name": "Keychron V1 Max", "kind": "75%", "tier": "$$", "why": "The easy first mechanical: wireless, knob, hot-swap switches.", "program": "Keychron", "link": "https://www.keychron.com/search?q=V1+Max", "affiliate": "" },
-        { "id": "aula-f75", "name": "AULA F75", "kind": "75%", "tier": "$", "why": "Budget gasket board that sounds far nicer than its price.", "program": "AULA", "link": "https://www.amazon.com/s?k=AULA+F75", "affiliate": "" },
-        { "id": "keychron-q1-max", "name": "Keychron Q1 Max", "kind": "75%", "tier": "$$$", "why": "The aluminum 75% many people end up keeping for years.", "program": "Keychron", "link": "https://www.keychron.com/search?q=Q1+Max", "affiliate": "" },
-        { "id": "keychron-k2-he", "name": "Keychron K2 HE", "kind": "75% · Hall effect", "tier": "$$", "why": "Magnetic switches with adjustable actuation, in a classic layout.", "program": "Keychron", "link": "https://www.keychron.com/search?q=K2+HE", "affiliate": "" },
-        { "id": "keychron-v2-max", "name": "Keychron V2 Max", "kind": "65%", "tier": "$$", "why": "Keeps the arrow keys, drops the F-row.", "program": "Keychron", "link": "https://www.keychron.com/search?q=V2+Max", "affiliate": "" },
-        { "id": "hyperx-alloy-origins-65", "name": "HyperX Alloy Origins 65", "kind": "65%", "tier": "$$", "why": "Compact aluminum gaming board with RGB.", "program": "HyperX", "link": "https://www.amazon.com/s?k=HyperX+Alloy+Origins+65", "affiliate": "" },
-        { "id": "aula-win68-he", "name": "AULA WIN68 HE", "kind": "65% · Hall effect", "tier": "$", "why": "The cheapest way to try magnetic rapid-trigger switches.", "program": "AULA", "link": "https://www.amazon.com/s?k=AULA+WIN68+HE", "affiliate": "" },
-        { "id": "keychron-q2-max", "name": "Keychron Q2 Max", "kind": "65%", "tier": "$$$", "why": "Aluminum 65% with a knob.", "program": "Keychron", "link": "https://www.keychron.com/search?q=Q2+Max", "affiliate": "" },
-        { "id": "wooting-60he-v2", "name": "Wooting 60HE v2", "kind": "60% · Hall effect", "tier": "$$$", "why": "Tiny magnetic board built for gaming.", "program": "None yet", "link": "https://wooting.io/", "affiliate": "" },
-        { "id": "monsgeek-fun60-ultra", "name": "MonsGeek FUN60 Ultra", "kind": "60% · Hall effect", "tier": "$", "why": "Budget 60% with magnetic switches.", "program": "Amazon", "link": "https://www.amazon.com/s?k=MonsGeek+FUN60+Ultra", "affiliate": "" },
-        { "id": "hhkb", "name": "HHKB Professional", "kind": "60% · Topre", "tier": "$$$", "why": "The cult-classic programmer layout with Topre switches.", "program": "Amazon", "link": "https://www.amazon.com/s?k=HHKB+Professional", "affiliate": "" },
-        { "id": "vortex-core-plus", "name": "Vortex Core Plus", "kind": "40%", "tier": "$$", "why": "A 40% you can buy ready-made, no kit building.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Vortex+Core+Plus", "affiliate": "" },
-        { "id": "keychron-q9-plus", "name": "Keychron Q9 Plus", "kind": "40%", "tier": "$$", "why": "Aluminum 40% for people who love layers.", "program": "Keychron", "link": "https://www.keychron.com/search?q=Q9+Plus", "affiliate": "" },
-        { "id": "planck", "name": "Planck", "kind": "Ortholinear", "tier": "$$", "why": "The classic 47-key grid board.", "program": "None yet", "link": "https://olkb.com/", "affiliate": "" },
-        { "id": "keychron-q15-max", "name": "Keychron Q15 Max", "kind": "Ortholinear", "tier": "$$$", "why": "A grid layout without building a kit.", "program": "Keychron", "link": "https://www.keychron.com/search?q=Q15+Max", "affiliate": "" },
-        { "id": "logitech-ergo-k860", "name": "Logitech Ergo K860", "kind": "Split (one piece)", "tier": "$$", "why": "The gentlest step into split, ergonomic typing.", "program": "Logitech", "link": "https://www.amazon.com/s?k=Logitech+Ergo+K860", "affiliate": "" },
-        { "id": "keychron-v10-max", "name": "Keychron V10 Max", "kind": "Alice layout", "tier": "$$", "why": "Angled Alice layout: split feel, one board.", "program": "Keychron", "link": "https://www.keychron.com/search?q=V10+Max", "affiliate": "" },
-        { "id": "kinesis-freestyle2", "name": "Kinesis Freestyle2", "kind": "Split", "tier": "$$", "why": "Two halves you can spread to shoulder width.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Kinesis+Freestyle2", "affiliate": "" },
-        { "id": "epomaker-split-65", "name": "Epomaker Split 65", "kind": "Split", "tier": "$$", "why": "A split mechanical at a mid price.", "program": "Epomaker", "link": "https://epomaker.com/search?q=Split+65", "affiliate": "" },
-        { "id": "zsa-voyager", "name": "ZSA Voyager", "kind": "Split · low-profile", "tier": "$$$", "why": "Thin, portable split you can fully remap.", "program": "None yet", "link": "https://www.zsa.io/voyager", "affiliate": "" },
-        { "id": "zsa-moonlander", "name": "ZSA Moonlander", "kind": "Split", "tier": "$$$", "why": "Full split with thumb clusters and tenting.", "program": "None yet", "link": "https://www.zsa.io/moonlander", "affiliate": "" },
-        { "id": "glove80", "name": "Glove80", "kind": "Split · contoured", "tier": "$$$", "why": "Curved key wells shaped around your fingers.", "program": "None yet", "link": "https://www.moergo.com/", "affiliate": "" },
-        { "id": "kinesis-advantage360", "name": "Kinesis Advantage360", "kind": "Split · contoured", "tier": "$$$", "why": "The end-game ergonomic board.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Kinesis+Advantage360", "affiliate": "" },
-        { "id": "keychron-q0-max", "name": "Keychron Q0 Max", "kind": "Numpad", "tier": "$$", "why": "Add a numpad only when you need it.", "program": "Keychron", "link": "https://www.keychron.com/search?q=Q0+Max", "affiliate": "" },
-        { "id": "keychron-q12-max", "name": "Keychron Q12 Max", "kind": "Numpad + 75%", "tier": "$$$", "why": "Left-side numpad so your mouse stays close.", "program": "Keychron", "link": "https://www.keychron.com/search?q=Q12+Max", "affiliate": "" },
-        { "id": "logitech-mx-mechanical-mini", "name": "Logitech MX Mechanical Mini", "kind": "Low-profile", "tier": "$$", "why": "Low-profile mechanical for work, with Logi Flow.", "program": "Logitech", "link": "https://www.amazon.com/s?k=Logitech+MX+Mechanical+Mini", "affiliate": "" },
-        { "id": "nuphy-air75", "name": "NuPhy Air75", "kind": "Low-profile", "tier": "$$", "why": "Thin, colorful and laptop-friendly.", "program": "NuPhy", "link": "https://nuphy.com/search?q=Air75", "affiliate": "" },
-        { "id": "keychron-k3-max", "name": "Keychron K3 Max", "kind": "Low-profile", "tier": "$$", "why": "Slim wireless mechanical for Mac users.", "program": "Keychron", "link": "https://www.keychron.com/search?q=K3+Max", "affiliate": "" }
+        {
+          "id": "logitech-mx-keys-s",
+          "name": "Logitech MX Keys S",
+          "kind": "Full-size",
+          "tier": "$$",
+          "why": "Quiet scissor keys, backlight and 3-device switching. The office pick.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Logitech+MX+Keys+S",
+          "affiliate": "https://www.amazon.com/s?k=Logitech+MX+Keys+S&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-k10-max",
+          "name": "Keychron K10 Max",
+          "kind": "Full-size",
+          "tier": "$$",
+          "why": "Wireless mechanical full-size with a numpad, for Mac or Windows.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=K10+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+K10+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-v6-max",
+          "name": "Keychron V6 Max",
+          "kind": "Full-size",
+          "tier": "$$",
+          "why": "Gasket-mount full-size with a knob, at a mid price.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=V6+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+V6+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-q6-max",
+          "name": "Keychron Q6 Max",
+          "kind": "Full-size",
+          "tier": "$$$",
+          "why": "Heavy aluminum full-size. Premium feel, premium price.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=Q6+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+Q6+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-v5-max",
+          "name": "Keychron V5 Max",
+          "kind": "1800 (96%)",
+          "tier": "$$",
+          "why": "Keeps the numpad but squeezes the gaps out.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=V5+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+V5+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-q5-max",
+          "name": "Keychron Q5 Max",
+          "kind": "1800 (96%)",
+          "tier": "$$$",
+          "why": "Aluminum 96% layout for numpad users with small desks.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=Q5+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+Q5+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-v3-max",
+          "name": "Keychron V3 Max",
+          "kind": "TKL",
+          "tier": "$$",
+          "why": "Tenkeyless: no numpad, more room for your mouse.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=V3+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+V3+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "razer-huntsman-v3-pro-tkl",
+          "name": "Razer Huntsman V3 Pro TKL",
+          "kind": "TKL · analog optical",
+          "tier": "$$$",
+          "why": "Adjustable actuation and rapid trigger for competitive games.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Razer+Huntsman+V3+Pro+TKL",
+          "affiliate": "https://www.amazon.com/s?k=Razer+Huntsman+V3+Pro+TKL&tag=keyboardche0f-20"
+        },
+        {
+          "id": "wooting-80he",
+          "name": "Wooting 80HE",
+          "kind": "75–80% · Hall effect",
+          "tier": "$$$",
+          "why": "The magnetic-switch board competitive players talk about most.",
+          "program": "None yet",
+          "link": "https://wooting.io/",
+          "affiliate": ""
+        },
+        {
+          "id": "keychron-v1-max",
+          "name": "Keychron V1 Max",
+          "kind": "75%",
+          "tier": "$$",
+          "why": "The easy first mechanical: wireless, knob, hot-swap switches.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=V1+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+V1+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "aula-f75",
+          "name": "AULA F75",
+          "kind": "75%",
+          "tier": "$",
+          "why": "Budget gasket board that sounds far nicer than its price.",
+          "program": "Epomaker",
+          "link": "https://www.amazon.com/s?k=AULA+F75",
+          "affiliate": "https://epomaker.com/products/epomaker-aula-f75?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "epomaker-th80-v2-pro",
+          "name": "Epomaker TH80 V2 Pro",
+          "kind": "75%",
+          "tier": "$",
+          "why": "Wireless 75% with a knob, a budget favorite.",
+          "program": "Epomaker",
+          "link": "https://epomaker.com/products/epomaker-th80-v2-pro",
+          "affiliate": "https://epomaker.com/products/epomaker-th80-v2-pro?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "keychron-q1-max",
+          "name": "Keychron Q1 Max",
+          "kind": "75%",
+          "tier": "$$$",
+          "why": "The aluminum 75% many people end up keeping for years.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=Q1+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+Q1+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-k2-he",
+          "name": "Keychron K2 HE",
+          "kind": "75% · Hall effect",
+          "tier": "$$",
+          "why": "Magnetic switches with adjustable actuation, in a classic layout.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=K2+HE",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+K2+HE&tag=keyboardche0f-20"
+        },
+        {
+          "id": "epomaker-he80",
+          "name": "Epomaker HE80",
+          "kind": "75–80% · Hall effect",
+          "tier": "$",
+          "why": "Rapid-trigger magnetic switches for around $60.",
+          "program": "Epomaker",
+          "link": "https://epomaker.com/products/epomaker-he80",
+          "affiliate": "https://epomaker.com/products/epomaker-he80?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "keychron-v2-max",
+          "name": "Keychron V2 Max",
+          "kind": "65%",
+          "tier": "$$",
+          "why": "Keeps the arrow keys, drops the F-row.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=V2+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+V2+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "hyperx-alloy-origins-65",
+          "name": "HyperX Alloy Origins 65",
+          "kind": "65%",
+          "tier": "$$",
+          "why": "Compact aluminum gaming board with RGB.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=HyperX+Alloy+Origins+65",
+          "affiliate": "https://www.amazon.com/s?k=HyperX+Alloy+Origins+65&tag=keyboardche0f-20"
+        },
+        {
+          "id": "aula-win68-he",
+          "name": "AULA WIN68 HE",
+          "kind": "65% · Hall effect",
+          "tier": "$",
+          "why": "The cheapest way to try magnetic rapid-trigger switches.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=AULA+WIN68+HE",
+          "affiliate": "https://www.amazon.com/s?k=AULA+WIN68+HE&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-q2-max",
+          "name": "Keychron Q2 Max",
+          "kind": "65%",
+          "tier": "$$$",
+          "why": "Aluminum 65% with a knob.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=Q2+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+Q2+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "aula-f65",
+          "name": "EPOMAKER x AULA F65",
+          "kind": "65%",
+          "tier": "$",
+          "why": "The F75's little sibling, for under $50.",
+          "program": "Epomaker",
+          "link": "https://epomaker.com/products/epomaker-aula-f65",
+          "affiliate": "https://epomaker.com/products/epomaker-aula-f65?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "wooting-60he-v2",
+          "name": "Wooting 60HE v2",
+          "kind": "60% · Hall effect",
+          "tier": "$$$",
+          "why": "Tiny magnetic board built for gaming.",
+          "program": "None yet",
+          "link": "https://wooting.io/",
+          "affiliate": ""
+        },
+        {
+          "id": "monsgeek-fun60-ultra",
+          "name": "MonsGeek FUN60 Ultra",
+          "kind": "60% · Hall effect",
+          "tier": "$",
+          "why": "Budget 60% with magnetic switches.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=MonsGeek+FUN60+Ultra",
+          "affiliate": "https://www.amazon.com/s?k=MonsGeek+FUN60+Ultra&tag=keyboardche0f-20"
+        },
+        {
+          "id": "hhkb",
+          "name": "HHKB Professional",
+          "kind": "60% · Topre",
+          "tier": "$$$",
+          "why": "The cult-classic programmer layout with Topre switches.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=HHKB+Professional",
+          "affiliate": "https://www.amazon.com/s?k=HHKB+Professional&tag=keyboardche0f-20"
+        },
+        {
+          "id": "vortex-core-plus",
+          "name": "Vortex Core Plus",
+          "kind": "40%",
+          "tier": "$$",
+          "why": "A 40% you can buy ready-made, no kit building.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Vortex+Core+Plus",
+          "affiliate": "https://www.amazon.com/s?k=Vortex+Core+Plus&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-q9-plus",
+          "name": "Keychron Q9 Plus",
+          "kind": "40%",
+          "tier": "$$",
+          "why": "Aluminum 40% for people who love layers.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=Q9+Plus",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+Q9+Plus&tag=keyboardche0f-20"
+        },
+        {
+          "id": "planck",
+          "name": "Planck",
+          "kind": "Ortholinear",
+          "tier": "$$",
+          "why": "The classic 47-key grid board.",
+          "program": "None yet",
+          "link": "https://olkb.com/",
+          "affiliate": ""
+        },
+        {
+          "id": "keychron-q15-max",
+          "name": "Keychron Q15 Max",
+          "kind": "Ortholinear",
+          "tier": "$$$",
+          "why": "A grid layout without building a kit.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=Q15+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+Q15+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "logitech-ergo-k860",
+          "name": "Logitech Ergo K860",
+          "kind": "Split (one piece)",
+          "tier": "$$",
+          "why": "The gentlest step into split, ergonomic typing.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Logitech+Ergo+K860",
+          "affiliate": "https://www.amazon.com/s?k=Logitech+Ergo+K860&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-v10-max",
+          "name": "Keychron V10 Max",
+          "kind": "Alice layout",
+          "tier": "$$",
+          "why": "Angled Alice layout: split feel, one board.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=V10+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+V10+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "kinesis-freestyle2",
+          "name": "Kinesis Freestyle2",
+          "kind": "Split",
+          "tier": "$$",
+          "why": "Two halves you can spread to shoulder width.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Kinesis+Freestyle2",
+          "affiliate": "https://www.amazon.com/s?k=Kinesis+Freestyle2&tag=keyboardche0f-20"
+        },
+        {
+          "id": "epomaker-split-65",
+          "name": "Epomaker Split 65",
+          "kind": "Split",
+          "tier": "$$",
+          "why": "A split mechanical at a mid price.",
+          "program": "Epomaker",
+          "link": "https://epomaker.com/search?q=Split+65",
+          "affiliate": "https://epomaker.com/products/epomaker-split-65?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "epomaker-split70",
+          "name": "Epomaker Split70",
+          "kind": "Split",
+          "tier": "$$",
+          "why": "A split board with a few more keys than the Split 65.",
+          "program": "Epomaker",
+          "link": "https://epomaker.com/products/epomaker-split70",
+          "affiliate": "https://epomaker.com/products/epomaker-split70?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "zsa-voyager",
+          "name": "ZSA Voyager",
+          "kind": "Split · low-profile",
+          "tier": "$$$",
+          "why": "Thin, portable split you can fully remap.",
+          "program": "None yet",
+          "link": "https://www.zsa.io/voyager",
+          "affiliate": ""
+        },
+        {
+          "id": "zsa-moonlander",
+          "name": "ZSA Moonlander",
+          "kind": "Split",
+          "tier": "$$$",
+          "why": "Full split with thumb clusters and tenting.",
+          "program": "None yet",
+          "link": "https://www.zsa.io/moonlander",
+          "affiliate": ""
+        },
+        {
+          "id": "glove80",
+          "name": "Glove80",
+          "kind": "Split · contoured",
+          "tier": "$$$",
+          "why": "Curved key wells shaped around your fingers.",
+          "program": "None yet",
+          "link": "https://www.moergo.com/",
+          "affiliate": ""
+        },
+        {
+          "id": "kinesis-advantage360",
+          "name": "Kinesis Advantage360",
+          "kind": "Split · contoured",
+          "tier": "$$$",
+          "why": "The end-game ergonomic board.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Kinesis+Advantage360",
+          "affiliate": "https://www.amazon.com/s?k=Kinesis+Advantage360&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-q0-max",
+          "name": "Keychron Q0 Max",
+          "kind": "Numpad",
+          "tier": "$$",
+          "why": "Add a numpad only when you need it.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=Q0+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+Q0+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-q12-max",
+          "name": "Keychron Q12 Max",
+          "kind": "Numpad + 75%",
+          "tier": "$$$",
+          "why": "Left-side numpad so your mouse stays close.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=Q12+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+Q12+Max&tag=keyboardche0f-20"
+        },
+        {
+          "id": "logitech-mx-mechanical-mini",
+          "name": "Logitech MX Mechanical Mini",
+          "kind": "Low-profile",
+          "tier": "$$",
+          "why": "Low-profile mechanical for work, with Logi Flow.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Logitech+MX+Mechanical+Mini",
+          "affiliate": "https://www.amazon.com/s?k=Logitech+MX+Mechanical+Mini&tag=keyboardche0f-20"
+        },
+        {
+          "id": "nuphy-air75",
+          "name": "NuPhy Air75",
+          "kind": "Low-profile",
+          "tier": "$$",
+          "why": "Thin, colorful and laptop-friendly.",
+          "program": "Amazon",
+          "link": "https://nuphy.com/search?q=Air75",
+          "affiliate": "https://www.amazon.com/s?k=NuPhy+Air75&tag=keyboardche0f-20"
+        },
+        {
+          "id": "keychron-k3-max",
+          "name": "Keychron K3 Max",
+          "kind": "Low-profile",
+          "tier": "$$",
+          "why": "Slim wireless mechanical for Mac users.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=K3+Max",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+K3+Max&tag=keyboardche0f-20"
+        }
       ]
     },
     {
@@ -53,13 +432,86 @@
       "intro": "Hot-swap board? Change the whole feel for less than a new keyboard. Start with a tester.",
       "video": "",
       "items": [
-        { "id": "switch-tester", "name": "Switch tester", "kind": "Try before you buy", "tier": "$", "why": "A small block of different switches so you can feel linear, tactile and clicky side by side.", "program": "Amazon", "link": "https://www.amazon.com/s?k=mechanical+keyboard+switch+tester", "affiliate": "" },
-        { "id": "gateron-milky-yellow-pro", "name": "Gateron Milky Yellow Pro", "kind": "Linear", "tier": "$", "why": "The budget smooth linear lots of people start with.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Gateron+Milky+Yellow+Pro", "affiliate": "" },
-        { "id": "akko-cream-yellow", "name": "Akko V3 Cream Yellow Pro", "kind": "Linear", "tier": "$", "why": "Smooth, factory-lubed and cheap per switch.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Akko+V3+Cream+Yellow+Pro", "affiliate": "" },
-        { "id": "gateron-oil-king", "name": "Gateron Oil King", "kind": "Linear", "tier": "$$", "why": "Deeper, heavier linear with a thocky sound.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Gateron+Oil+King", "affiliate": "" },
-        { "id": "boba-u4t", "name": "Gazzew Boba U4T", "kind": "Tactile", "tier": "$$", "why": "A strong, round bump. The classic tactile pick.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Boba+U4T+switches", "affiliate": "" },
-        { "id": "glorious-panda", "name": "Glorious Panda", "kind": "Tactile", "tier": "$$", "why": "Sharp tactile bump that's easy to find in stores.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Glorious+Panda+switches", "affiliate": "" },
-        { "id": "kailh-box-jade", "name": "Kailh Box Jade", "kind": "Clicky", "tier": "$", "why": "Loud, crisp click. Great for you, rough for roommates.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Kailh+Box+Jade", "affiliate": "" }
+        {
+          "id": "switch-tester",
+          "name": "Switch tester",
+          "kind": "Try before you buy",
+          "tier": "$",
+          "why": "A small block of different switches so you can feel linear, tactile and clicky side by side.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=mechanical+keyboard+switch+tester",
+          "affiliate": "https://www.amazon.com/s?k=mechanical+keyboard+switch+tester&tag=keyboardche0f-20"
+        },
+        {
+          "id": "gateron-milky-yellow-pro",
+          "name": "Gateron Milky Yellow Pro",
+          "kind": "Linear",
+          "tier": "$",
+          "why": "The budget smooth linear lots of people start with.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Gateron+Milky+Yellow+Pro",
+          "affiliate": "https://www.amazon.com/s?k=Gateron+Milky+Yellow+Pro&tag=keyboardche0f-20"
+        },
+        {
+          "id": "akko-cream-yellow",
+          "name": "Akko V3 Cream Yellow Pro",
+          "kind": "Linear",
+          "tier": "$",
+          "why": "Smooth, factory-lubed and cheap per switch.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Akko+V3+Cream+Yellow+Pro",
+          "affiliate": "https://www.amazon.com/s?k=Akko+V3+Cream+Yellow+Pro&tag=keyboardche0f-20"
+        },
+        {
+          "id": "gateron-oil-king",
+          "name": "Gateron Oil King",
+          "kind": "Linear",
+          "tier": "$$",
+          "why": "Deeper, heavier linear with a thocky sound.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Gateron+Oil+King",
+          "affiliate": "https://www.amazon.com/s?k=Gateron+Oil+King&tag=keyboardche0f-20"
+        },
+        {
+          "id": "boba-u4t",
+          "name": "Gazzew Boba U4T",
+          "kind": "Tactile",
+          "tier": "$$",
+          "why": "A strong, round bump. The classic tactile pick.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Boba+U4T+switches",
+          "affiliate": "https://www.amazon.com/s?k=Boba+U4T+switches&tag=keyboardche0f-20"
+        },
+        {
+          "id": "glorious-panda",
+          "name": "Glorious Panda",
+          "kind": "Tactile",
+          "tier": "$$",
+          "why": "Sharp tactile bump that's easy to find in stores.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Glorious+Panda+switches",
+          "affiliate": "https://www.amazon.com/s?k=Glorious+Panda+switches&tag=keyboardche0f-20"
+        },
+        {
+          "id": "kailh-box-jade",
+          "name": "Kailh Box Jade",
+          "kind": "Clicky",
+          "tier": "$",
+          "why": "Loud, crisp click. Great for you, rough for roommates.",
+          "program": "Epomaker",
+          "link": "https://www.amazon.com/s?k=Kailh+Box+Jade",
+          "affiliate": "https://epomaker.com/products/kailh-box-switch-set?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "sea-salt-silent",
+          "name": "Epomaker Sea Salt Silent V3",
+          "kind": "Silent",
+          "tier": "$",
+          "why": "Dampened switches for quiet offices and streams.",
+          "program": "Epomaker",
+          "link": "https://epomaker.com/products/epomaker-sea-salt-silent-v3",
+          "affiliate": "https://epomaker.com/products/epomaker-sea-salt-silent-v3?sca_ref=12729033.ABCzNmkdh5"
+        }
       ]
     },
     {
@@ -68,9 +520,46 @@
       "intro": "New keycaps change the look and the sound. Check your layout before you buy.",
       "video": "",
       "items": [
-        { "id": "hyperx-pudding", "name": "HyperX Pudding Keycaps", "kind": "Translucent sides", "tier": "$", "why": "Lets your RGB glow through the sides of every key.", "program": "HyperX", "link": "https://www.amazon.com/s?k=HyperX+Pudding+Keycaps", "affiliate": "" },
-        { "id": "keychron-pbt-set", "name": "Keychron double-shot PBT set", "kind": "Cherry profile", "tier": "$", "why": "Thick PBT that won't go shiny, cut to fit Keychron layouts.", "program": "Keychron", "link": "https://www.keychron.com/search?q=PBT+keycaps", "affiliate": "" },
-        { "id": "akko-pbt-set", "name": "Akko PBT keycap set", "kind": "Many themes", "tier": "$", "why": "Lots of colorways with extra keys for odd layouts.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Akko+PBT+keycap+set", "affiliate": "" }
+        {
+          "id": "hyperx-pudding",
+          "name": "HyperX Pudding Keycaps",
+          "kind": "Translucent sides",
+          "tier": "$",
+          "why": "Lets your RGB glow through the sides of every key.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=HyperX+Pudding+Keycaps",
+          "affiliate": "https://www.amazon.com/s?k=HyperX+Pudding+Keycaps&tag=keyboardche0f-20"
+        },
+        {
+          "id": "lusterfly-jelly",
+          "name": "Epomaker Lusterfly Jelly keycaps",
+          "kind": "Translucent",
+          "tier": "$",
+          "why": "See-through jelly caps that glow with RGB.",
+          "program": "Epomaker",
+          "link": "https://epomaker.com/products/epomaker-lusterfly-jelly-keycaps-set",
+          "affiliate": "https://epomaker.com/products/epomaker-lusterfly-jelly-keycaps-set?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "keychron-pbt-set",
+          "name": "Keychron double-shot PBT set",
+          "kind": "Cherry profile",
+          "tier": "$",
+          "why": "Thick PBT that won't go shiny, cut to fit Keychron layouts.",
+          "program": "Amazon",
+          "link": "https://www.keychron.com/search?q=PBT+keycaps",
+          "affiliate": "https://www.amazon.com/s?k=Keychron+double-shot+PBT+set&tag=keyboardche0f-20"
+        },
+        {
+          "id": "akko-pbt-set",
+          "name": "Akko PBT keycap set",
+          "kind": "Many themes",
+          "tier": "$",
+          "why": "Lots of colorways with extra keys for odd layouts.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Akko+PBT+keycap+set",
+          "affiliate": "https://www.amazon.com/s?k=Akko+PBT+keycap+set&tag=keyboardche0f-20"
+        }
       ]
     },
     {
@@ -79,13 +568,76 @@
       "intro": "The small stuff that makes a keyboard setup feel finished.",
       "video": "",
       "items": [
-        { "id": "puller", "name": "Keycap + switch puller", "kind": "Tool", "tier": "$", "why": "The one tool every hot-swap board needs.", "program": "Amazon", "link": "https://www.amazon.com/s?k=keycap+switch+puller", "affiliate": "" },
-        { "id": "coiled-cable", "name": "Coiled USB-C cable", "kind": "Cable", "tier": "$", "why": "Tidy desk, aviator plug, instant upgrade look.", "program": "Amazon", "link": "https://www.amazon.com/s?k=coiled+usb+c+keyboard+cable+aviator", "affiliate": "" },
-        { "id": "wrist-rest", "name": "Wooden wrist rest", "kind": "Comfort", "tier": "$", "why": "Raises your wrists to the height of taller mechanical boards.", "program": "Amazon", "link": "https://www.amazon.com/s?k=wooden+keyboard+wrist+rest", "affiliate": "" },
-        { "id": "desk-mat", "name": "Large desk mat", "kind": "Desk", "tier": "$", "why": "Quiets the keyboard and gives your mouse room.", "program": "Amazon", "link": "https://www.amazon.com/s?k=large+desk+mat", "affiliate": "" },
-        { "id": "mx-master-3s", "name": "Logitech MX Master 3S", "kind": "Mouse", "tier": "$$", "why": "Quiet clicks, side scroll and gesture buttons for shortcuts.", "program": "Logitech", "link": "https://www.amazon.com/s?k=Logitech+MX+Master+3S", "affiliate": "" },
-        { "id": "monitor-light", "name": "Monitor light bar", "kind": "Lighting", "tier": "$$", "why": "Lights your keyboard without glare on the screen.", "program": "Amazon", "link": "https://www.amazon.com/s?k=monitor+light+bar", "affiliate": "" },
-        { "id": "switch-lube", "name": "Krytox 205g0 switch lube", "kind": "Modding", "tier": "$", "why": "For when you're ready to make stock switches smoother.", "program": "Amazon", "link": "https://www.amazon.com/s?k=Krytox+205g0", "affiliate": "" }
+        {
+          "id": "puller",
+          "name": "Keycap + switch puller",
+          "kind": "Tool",
+          "tier": "$",
+          "why": "The one tool every hot-swap board needs.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=keycap+switch+puller",
+          "affiliate": "https://www.amazon.com/s?k=keycap+switch+puller&tag=keyboardche0f-20"
+        },
+        {
+          "id": "coiled-cable",
+          "name": "Coiled USB-C cable",
+          "kind": "Cable",
+          "tier": "$",
+          "why": "Tidy desk, aviator plug, instant upgrade look.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=coiled+usb+c+keyboard+cable+aviator",
+          "affiliate": "https://www.amazon.com/s?k=coiled+usb+c+keyboard+cable+aviator&tag=keyboardche0f-20"
+        },
+        {
+          "id": "wrist-rest",
+          "name": "Epomaker CloudGel wrist rest",
+          "kind": "Comfort",
+          "tier": "$",
+          "why": "Soft gel rest that lifts your wrists to the height of a mechanical board.",
+          "program": "Epomaker",
+          "link": "https://epomaker.com/products/epomaker-cloudgel-wrist-rest",
+          "affiliate": "https://epomaker.com/products/epomaker-cloudgel-wrist-rest?sca_ref=12729033.ABCzNmkdh5"
+        },
+        {
+          "id": "desk-mat",
+          "name": "Large desk mat",
+          "kind": "Desk",
+          "tier": "$",
+          "why": "Quiets the keyboard and gives your mouse room.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=large+desk+mat",
+          "affiliate": "https://www.amazon.com/s?k=large+desk+mat&tag=keyboardche0f-20"
+        },
+        {
+          "id": "mx-master-3s",
+          "name": "Logitech MX Master 3S",
+          "kind": "Mouse",
+          "tier": "$$",
+          "why": "Quiet clicks, side scroll and gesture buttons for shortcuts.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Logitech+MX+Master+3S",
+          "affiliate": "https://www.amazon.com/s?k=Logitech+MX+Master+3S&tag=keyboardche0f-20"
+        },
+        {
+          "id": "monitor-light",
+          "name": "Monitor light bar",
+          "kind": "Lighting",
+          "tier": "$$",
+          "why": "Lights your keyboard without glare on the screen.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=monitor+light+bar",
+          "affiliate": "https://www.amazon.com/s?k=monitor+light+bar&tag=keyboardche0f-20"
+        },
+        {
+          "id": "switch-lube",
+          "name": "Krytox 205g0 switch lube",
+          "kind": "Modding",
+          "tier": "$",
+          "why": "For when you're ready to make stock switches smoother.",
+          "program": "Amazon",
+          "link": "https://www.amazon.com/s?k=Krytox+205g0",
+          "affiliate": "https://www.amazon.com/s?k=Krytox+205g0&tag=keyboardche0f-20"
+        }
       ]
     }
   ]
